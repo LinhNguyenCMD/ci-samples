@@ -11,6 +11,16 @@ Expected results:
 Appointment Confirmation page is displayed</description>
    <name>TC2_Verify Successful Appointment</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>7</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment>Story: Book an appointment
 Given that the user has logged into their account
 And Appointment page is displayed
