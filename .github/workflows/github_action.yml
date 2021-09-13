@@ -8,6 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: run sudo
+      run: "sudo apt install -y xvfb"
     - name: Checkout
       uses: actions/checkout@v2
     - name: Katalon Studio Github Action
